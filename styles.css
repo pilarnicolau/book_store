@@ -1,0 +1,154 @@
+*, *::before, *::after{
+    font-family: verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    color: #333;
+  }
+  li {
+    list-style-type: none;
+  }
+  
+  a:hover{
+    text-decoration: none;
+    color:darkolivegreen;
+  
+  }
+    
+   /* HEADER */
+
+header a{
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  color:black;
+}
+
+.logo {
+  width: 80px;
+  position: absolute;
+  top:10px;
+  left:10px;
+  
+}
+
+.basket {
+  width: 40px;
+}
+
+.form-control {
+  width: 400px!important;
+}
+
+.btn-sm {
+  padding: .45rem .5rem!important;
+}
+
+ul {
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  height: 150px;
+}
+
+
+ /* NAVIGATION BAR */
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+  background:pink;
+  display:flex;
+  justify-content: space-around;
+  }
+
+ 
+
+ 
+
+.btn { 
+  background:red;
+  }
+  
+nav { 
+ 
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+
+  
+   /* BOOK-INFO STYLES */
+
+.book-info{
+  padding-top:2rem;
+  padding-right:2rem;
+  }
+
+.book-info img{
+  width:100%;
+}
+
+.book-info-txt{
+  padding: .5rem;
+
+}
+
+.book-info-txt p{
+
+  margin:0;
+  font-size:10px;
+}
+
+.title {
+  font-size:15px;
+  font-weight:bold;
+}
+.autor{
+  color:red;
+}
+
+
+  /* MENU BASE STYLES */
+  
+header{
+  background: rgb(202, 195, 195);
+    /* position: relative; */
+  width: 100%;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
