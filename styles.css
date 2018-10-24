@@ -2,19 +2,20 @@
     font-family: verdana, sans-serif;
     margin: 0;
     padding: 0;
+    margin-bottom:0;
+    
   }
+
+  p {margin:0;}
+ul {margin:0;}
+
   
-  body{
-    color: #333;
+  :root {
+    --main-bg-color: coral; 
   }
+
   li {
     list-style-type: none;
-  }
-  
-  a:hover{
-    text-decoration: none;
-    color:darkolivegreen;
-  
   }
     
    /* HEADER */
@@ -53,41 +54,46 @@ ul {
   align-items: center;
   position: relative;
   height: 150px;
+
 }
 
 
  /* NAVIGATION BAR */
 
 .wrapper{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  background:pink;
   display:flex;
   justify-content: space-around;
   }
 
- 
 
- 
 
 .btn { 
-  background:red;
+  background-color: var(--main-bg-color);
   }
   
 nav { 
  
   display: flex;
   justify-content: space-around;
-  padding-bottom: 10px;
+  padding: 2.5rem;
 }
 
 
   
    /* BOOK-INFO STYLES */
 
+
+ .chevron {   
+  margin-top: 150px;
+  width:38px;
+}  
+
+
 .book-info{
-  padding-top:2rem;
-  padding-right:2rem;
+padding:2.5rem;
+max-width: 260px;
   }
 
 .book-info img{
@@ -106,7 +112,7 @@ nav {
 }
 
 .title {
-  font-size:15px;
+  font-size:15rem;
   font-weight:bold;
 }
 .autor{
@@ -123,22 +129,44 @@ header{
 }
 
 
-
+  /* FOOTER */
  
+  .footer{
+    background: rgb(202, 195, 195);
+
+  
+  }
+.info{
+
+  display:flex;
+  justify-content: space-around;
+   padding: 3rem; 
+   cursor:pointer;
+}
+
+
+.copyright{
+  text-align: center;
+  font-size: .8rem;
+  padding-bottom: 2rem; 
+}
+
+.line{
+  width: 90%;
+  height: 1px;
+  background:black;
+  margin:0 auto;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+.section{
+  padding:1.7rem;
+  font-weight:bold;
+  font-size: 1.2rem;
+  margin-left:140px;
+  
+}
 
 
 
